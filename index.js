@@ -67,8 +67,9 @@ const notionParams = (obj) => {
   }
   return {
     parent: {
-      database_id: "156bd8b5a13747fd97541ca871b24493",
+      database_id: process.env.NOTION_DATABASE_ID,
     },
+    // プロパティの設定
     properties: {
       '案件名': {
         title: [
