@@ -1,0 +1,25 @@
+{
+  "name": "notemigration",
+  "version": "1.0.0",
+  "description": "NotePMからNotionのデータベースにページを移行する",
+  "main": "index.js",
+  "dependencies": {
+    "@notionhq/client": "^1.0.4",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42zz/notemigration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/42zz/notemigration/issues"
+  },
+  "homepage": "https://github.com/42zz/notemigration#readme"
+}
